@@ -1,0 +1,35 @@
+{
+	"dungeondraft_clipboard": 1,
+	"objects": [
+		{
+			"position": "Vector2( 10022.8, 13061.6 )",
+			"rotation": 0,
+			"scale": "Vector2( 0.802473, 0.802473 )",
+			"mirror": false,
+			"texture": "res://textures/objects/magic/magic_portal_03.png",
+			"layer": 100,
+			"shadow": false,
+			"custom_color": "ff6b3834"
+		},
+		{
+			"position": "Vector2( 10022.8, 13061.6 )",
+			"rotation": 2.356198,
+			"scale": "Vector2( 0.641978, 0.641978 )",
+			"mirror": false,
+			"texture": "res://textures/objects/magic/magic_portal_03.png",
+			"layer": 100,
+			"shadow": false,
+			"custom_color": "ff6b3834"
+		},
+		{
+			"position": "Vector2( 10022.8, 13061.6 )",
+			"rotation": 1.570796,
+			"scale": "Vector2( 0.641978, 0.641978 )",
+			"mirror": false,
+			"texture": "res://textures/objects/structures/sundials/sundial_04.png",
+			"layer": 100,
+			"shadow": false,
+			"custom_color": "fff3a768"
+		}
+	]
+}
