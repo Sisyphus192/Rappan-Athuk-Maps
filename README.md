@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/Lavaeolous/Rappan-Athuk-Maps/total.svg)]()
+
 # Rappan-Athuk-Maps
 Custom Rappan Athuk Maps created in DungeonDraft and Photoshop
 
