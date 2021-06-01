@@ -28,8 +28,8 @@
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 5746.3, 4027.86 )",
-			"camera_zoom": 5.333333,
+			"camera_position": "Vector2( 13615.4, 7951.01 )",
+			"camera_zoom": 3.2,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -163,7 +163,7 @@
 		"format": 3,
 		"width": 67,
 		"height": 80,
-		"next_node_id": "5cc",
+		"next_node_id": "5cd",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -6459,7 +6459,18 @@
 						"shadow": true,
 						"node_id": "62",
 						"portals": [
-
+							{
+								"position": "Vector2( 13568, 8448 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/door_10.png",
+								"radius": 128,
+								"wall_id": "62",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "5cc"
+							}
 						]
 					},
 					{
