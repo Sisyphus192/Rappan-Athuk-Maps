@@ -17,13 +17,19 @@
 				"name": "Crave's Lights 1.6d",
 				"id": "GEdExrk1",
 				"version": "1.6",
-				"author": "Doug Craven, Ajax, Ontario, Attribution-NonCommercial (CC BY-NC)"
+				"author": "Doug Craven, Ajax, Ontario, Attribution-NonCommercial (CC BY-NC)",
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0,
+					"min_saturation": 0,
+					"red_tolerance": 0
+				}
 			}
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 7588.69, 17919.8 )",
-			"camera_zoom": 5.333333,
+			"camera_position": "Vector2( 13615.4, 7951.01 )",
+			"camera_zoom": 3.2,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -154,10 +160,11 @@
 		}
 	},
 	"world": {
-		"format": 2,
+		"format": 3,
 		"width": 67,
 		"height": 80,
-		"next_node_id": "5cc",
+		"next_node_id": "5cd",
+		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
 			"max_offset_distance": 0.2,
@@ -165,8 +172,10 @@
 			"seed": "5e9b0515"
 		},
 		"grid": {
-			"color": "7f333333"
+			"color": "7f333333",
+			"texture": "res://textures/grid/dotted_line.png"
 		},
+		"building_wear": "res://textures/wear/grime.png",
 		"embedded": {
 
 		},
@@ -5575,7 +5584,33 @@
 						"ffffffff",
 						"ffffffff",
 						"ffffffff"
-					]
+					],
+					"lookup": {
+						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
+						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
+						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
+						"5": "res://textures/tilesets/simple/tileset_carpet.png",
+						"6": "res://textures/tilesets/simple/tileset_cave.png",
+						"7": "res://textures/tilesets/simple/tileset_cobble.png",
+						"8": "res://textures/tilesets/simple/tileset_concrete.png",
+						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond.png",
+						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"15": "res://textures/tilesets/simple/tileset_ornate.png",
+						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
+						"19": "res://textures/tilesets/simple/tileset_sewers.png",
+						"20": "res://textures/tilesets/simple/tileset_straw.png",
+						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png"
+					}
 				},
 				"patterns": [
 
@@ -5767,7 +5802,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 152,
+								"wall_id": "98",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "99"
@@ -5792,7 +5827,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 134,
+								"wall_id": "86",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "87"
@@ -5831,7 +5866,7 @@
 								"direction": "Vector2( 0, -1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 132,
+								"wall_id": "84",
 								"wall_distance": 11.625,
 								"closed": true,
 								"node_id": "92"
@@ -5884,7 +5919,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 129,
+								"wall_id": "81",
 								"wall_distance": 1.75,
 								"closed": true,
 								"node_id": "8f"
@@ -5923,7 +5958,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 127,
+								"wall_id": "7f",
 								"wall_distance": 2.75,
 								"closed": true,
 								"node_id": "88"
@@ -5935,7 +5970,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 127,
+								"wall_id": "7f",
 								"wall_distance": 4.3125,
 								"closed": true,
 								"node_id": "89"
@@ -5947,7 +5982,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 127,
+								"wall_id": "7f",
 								"wall_distance": 4.5625,
 								"closed": true,
 								"node_id": "8a"
@@ -5959,7 +5994,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 127,
+								"wall_id": "7f",
 								"wall_distance": 4.6875,
 								"closed": true,
 								"node_id": "8b"
@@ -5971,7 +6006,7 @@
 								"direction": "Vector2( -1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 127,
+								"wall_id": "7f",
 								"wall_distance": 6.785714,
 								"closed": true,
 								"node_id": "91"
@@ -6010,7 +6045,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 124,
+								"wall_id": "7c",
 								"wall_distance": 0.875,
 								"closed": true,
 								"node_id": "90"
@@ -6119,7 +6154,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 116,
+								"wall_id": "74",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "96"
@@ -6144,7 +6179,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 115,
+								"wall_id": "73",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "94"
@@ -6169,7 +6204,7 @@
 								"direction": "Vector2( 0, -1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 114,
+								"wall_id": "72",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "95"
@@ -6194,7 +6229,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 113,
+								"wall_id": "71",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "97"
@@ -6219,7 +6254,7 @@
 								"direction": "Vector2( -1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 112,
+								"wall_id": "70",
 								"wall_distance": 11.5,
 								"closed": true,
 								"node_id": "93"
@@ -6297,7 +6332,7 @@
 						]
 					},
 					{
-						"points": "PoolVector2Array( 13056, 4864, 13056, 6144, 16128, 6144, 16128, 7168, 16640, 7168, 16640, 10752, 14080, 10752, 14080, 13312, 14080, 14336, 13568, 14336, 13568, 15872, 14592, 15872, 14592, 14336, 15104, 14336, 15104, 13312, 14592, 13312, 14592, 13056, 14336, 13056, 14336, 12800, 14592, 12800, 14592, 12544, 14336, 12544, 14336, 12288, 14592, 12288, 14592, 12032, 14336, 12032, 14336, 11776, 14592, 11776, 14592, 11520, 14336, 11520, 14336, 11264, 14592, 11264, 14592, 11008, 14848, 11008, 14848, 11264, 15104, 11264, 15104, 11008, 15616, 11008, 15616, 11264, 15872, 11264, 15872, 11008, 16128, 11008, 16128, 11264, 16384, 11264, 16384, 11520, 16128, 11520, 16128, 11776, 16384, 11776, 16384, 12032, 16128, 12032, 16128, 12288, 16384, 12288, 16384, 12544, 16128, 12544, 16128, 12800, 16384, 12800, 16384, 13056, 16128, 13056, 16128, 13312, 15616, 13312, 15616, 14336, 16128, 14336, 16128, 17408, 13056, 17408 )",
+						"points": "PoolVector2Array( 13056, 4864, 13056, 6144, 12544, 6144, 16128, 6144, 16128, 7168, 16640, 7168, 16640, 10752, 14080, 10752, 14080, 13312, 14080, 14336, 13568, 14336, 13568, 15872, 14592, 15872, 14592, 14336, 15104, 14336, 15104, 13312, 14592, 13312, 14592, 13056, 14336, 13056, 14336, 12800, 14592, 12800, 14592, 12544, 14336, 12544, 14336, 12288, 14592, 12288, 14592, 12032, 14336, 12032, 14336, 11776, 14592, 11776, 14592, 11520, 14336, 11520, 14336, 11264, 14592, 11264, 14592, 11008, 14848, 11008, 14848, 11264, 15104, 11264, 15104, 11008, 15616, 11008, 15616, 11264, 15872, 11264, 15872, 11008, 16128, 11008, 16128, 11264, 16384, 11264, 16384, 11520, 16128, 11520, 16128, 11776, 16384, 11776, 16384, 12032, 16128, 12032, 16128, 12288, 16384, 12288, 16384, 12544, 16128, 12544, 16128, 12800, 16384, 12800, 16384, 13056, 16128, 13056, 16128, 13312, 15616, 13312, 15616, 14336, 16128, 14336, 16128, 17408, 13056, 17408 )",
 						"texture": "res://textures/walls/stone.png",
 						"color": "ff4b4b4b",
 						"loop": false,
@@ -6342,7 +6377,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 102,
+								"wall_id": "66",
 								"wall_distance": 2.5,
 								"closed": true,
 								"node_id": "9a"
@@ -6367,7 +6402,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 101,
+								"wall_id": "65",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "9b"
@@ -6406,7 +6441,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 99,
+								"wall_id": "63",
 								"wall_distance": 1.5,
 								"closed": true,
 								"node_id": "221"
@@ -6424,7 +6459,18 @@
 						"shadow": true,
 						"node_id": "62",
 						"portals": [
-
+							{
+								"position": "Vector2( 13568, 8448 )",
+								"rotation": 1.570796,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0, 1 )",
+								"texture": "res://textures/portals/door_10.png",
+								"radius": 128,
+								"wall_id": "62",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "5cc"
+							}
 						]
 					},
 					{
@@ -6459,7 +6505,7 @@
 								"direction": "Vector2( -1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 96,
+								"wall_id": "60",
 								"wall_distance": 2.375,
 								"closed": true,
 								"node_id": "8c"
@@ -6484,7 +6530,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 95,
+								"wall_id": "5f",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "8d"
@@ -6509,7 +6555,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 94,
+								"wall_id": "5e",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "8e"
@@ -6534,7 +6580,7 @@
 								"direction": "Vector2( 0, -1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 90,
+								"wall_id": "5a",
 								"wall_distance": 7.5,
 								"closed": true,
 								"node_id": "9e"
@@ -6643,7 +6689,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 44,
+								"wall_id": "2c",
 								"wall_distance": 1.5,
 								"closed": true,
 								"node_id": "2e"
@@ -6668,7 +6714,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 33,
+								"wall_id": "21",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "23"
@@ -6693,7 +6739,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 32,
+								"wall_id": "20",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "22"
@@ -6718,7 +6764,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 31,
+								"wall_id": "1f",
 								"wall_distance": 3.5,
 								"closed": true,
 								"node_id": "26"
@@ -6730,7 +6776,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 31,
+								"wall_id": "1f",
 								"wall_distance": 8.5,
 								"closed": true,
 								"node_id": "27"
@@ -6742,7 +6788,7 @@
 								"direction": "Vector2( 0, -1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 31,
+								"wall_id": "1f",
 								"wall_distance": 13.5,
 								"closed": true,
 								"node_id": "25"
@@ -6754,7 +6800,7 @@
 								"direction": "Vector2( 0, -1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 31,
+								"wall_id": "1f",
 								"wall_distance": 17.5,
 								"closed": true,
 								"node_id": "24"
@@ -6793,7 +6839,7 @@
 								"direction": "Vector2( 0, 1 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 20,
+								"wall_id": "14",
 								"wall_distance": 0.5,
 								"closed": true,
 								"node_id": "15"
@@ -6832,7 +6878,7 @@
 								"direction": "Vector2( -1, 0 )",
 								"texture": "res://textures/portals/door_10.png",
 								"radius": 128,
-								"wall_id": 14,
+								"wall_id": "e",
 								"wall_distance": 4.5,
 								"closed": true,
 								"node_id": "12"
@@ -6941,7 +6987,7 @@
 								"direction": "Vector2( 1, 0 )",
 								"texture": "res://textures/portals/door_09.png",
 								"radius": 128,
-								"wall_id": 4,
+								"wall_id": "4",
 								"wall_distance": 0.75,
 								"closed": true,
 								"node_id": "16"
@@ -7044,6 +7090,8 @@
 				},
 				"terrain": {
 					"enabled": false,
+					"expand_slots": false,
+					"smooth_blending": false,
 					"texture_1": "res://textures/terrain/terrain_rocky.png",
 					"texture_2": "res://textures/terrain/terrain_grass.png",
 					"texture_3": "res://textures/terrain/terrain_rocky.png",
@@ -18441,6 +18489,7 @@
 				"lights": [
 					{
 						"position": "Vector2( 6275.37, 19072 )",
+						"rotation": 0,
 						"range": 11,
 						"intensity": 1.4,
 						"color": "ff4dd569",
@@ -18450,6 +18499,7 @@
 					},
 					{
 						"position": "Vector2( 7036.97, 19072 )",
+						"rotation": 0,
 						"range": 11,
 						"intensity": 1.4,
 						"color": "ff4dd569",
@@ -18459,6 +18509,7 @@
 					},
 					{
 						"position": "Vector2( 12344.2, 2620.77 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 0.5,
 						"color": "ffffad58",
@@ -18468,6 +18519,7 @@
 					},
 					{
 						"position": "Vector2( 13220.2, 2624.77 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 0.5,
 						"color": "ffffad58",
@@ -18477,6 +18529,7 @@
 					},
 					{
 						"position": "Vector2( 13244.2, 4568.77 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 0.5,
 						"color": "ffffad58",
@@ -18486,6 +18539,7 @@
 					},
 					{
 						"position": "Vector2( 12340.2, 4552.77 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 0.5,
 						"color": "ffffad58",
@@ -18495,6 +18549,7 @@
 					},
 					{
 						"position": "Vector2( 12148.2, 3788.77 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 0.5,
 						"color": "ffffad58",
@@ -18504,6 +18559,7 @@
 					},
 					{
 						"position": "Vector2( 15356.7, 6900.9 )",
+						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.7,
 						"color": "ff58f7ff",
@@ -18513,6 +18569,7 @@
 					},
 					{
 						"position": "Vector2( 14855.4, 8436.9 )",
+						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.7,
 						"color": "ff58f7ff",
@@ -18522,6 +18579,7 @@
 					},
 					{
 						"position": "Vector2( 15868.7, 7919.57 )",
+						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.7,
 						"color": "ff58f7ff",
@@ -18531,6 +18589,7 @@
 					},
 					{
 						"position": "Vector2( 15858, 8970.23 )",
+						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.7,
 						"color": "ff58f7ff",
@@ -18540,6 +18599,7 @@
 					},
 					{
 						"position": "Vector2( 15351.4, 9978.23 )",
+						"rotation": 0,
 						"range": 6.5,
 						"intensity": 0.7,
 						"color": "ff58f7ff",
@@ -18549,6 +18609,7 @@
 					},
 					{
 						"position": "Vector2( 7914.22, 12988.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18558,6 +18619,7 @@
 					},
 					{
 						"position": "Vector2( 8202.22, 12668.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18567,6 +18629,7 @@
 					},
 					{
 						"position": "Vector2( 8596.22, 12614.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18576,6 +18639,7 @@
 					},
 					{
 						"position": "Vector2( 8994.22, 12492.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18585,6 +18649,7 @@
 					},
 					{
 						"position": "Vector2( 9066.22, 12836.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18594,6 +18659,7 @@
 					},
 					{
 						"position": "Vector2( 9604.22, 13006.8 )",
+						"rotation": 0,
 						"range": 1.623986,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18603,6 +18669,7 @@
 					},
 					{
 						"position": "Vector2( 8658.22, 13164.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18612,6 +18679,7 @@
 					},
 					{
 						"position": "Vector2( 7722.22, 12520.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18621,6 +18689,7 @@
 					},
 					{
 						"position": "Vector2( 7590.22, 12696.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18630,6 +18699,7 @@
 					},
 					{
 						"position": "Vector2( 9250.22, 13068.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18639,6 +18709,7 @@
 					},
 					{
 						"position": "Vector2( 9094.22, 12560.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18648,6 +18719,7 @@
 					},
 					{
 						"position": "Vector2( 8538.22, 12892.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18657,6 +18729,7 @@
 					},
 					{
 						"position": "Vector2( 8214.22, 13116.8 )",
+						"rotation": 0,
 						"range": 2.5,
 						"intensity": 0.5,
 						"color": "ff58ff6e",
@@ -18666,6 +18739,7 @@
 					},
 					{
 						"position": "Vector2( 11647.8, 12544 )",
+						"rotation": 0,
 						"range": 5.6,
 						"intensity": 0.8,
 						"color": "ffff0000",
@@ -18675,6 +18749,7 @@
 					},
 					{
 						"position": "Vector2( 12164.7, 3789.14 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 1,
 						"color": "ffeccd8b",
@@ -18684,6 +18759,7 @@
 					},
 					{
 						"position": "Vector2( 12346, 4573.14 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 1,
 						"color": "ffffad58",
@@ -18693,6 +18769,7 @@
 					},
 					{
 						"position": "Vector2( 13252.7, 4567.81 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 1,
 						"color": "ffffad58",
@@ -18702,6 +18779,7 @@
 					},
 					{
 						"position": "Vector2( 12351.3, 2626.47 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 1,
 						"color": "ffffad58",
@@ -18711,6 +18789,7 @@
 					},
 					{
 						"position": "Vector2( 13226, 2631.81 )",
+						"rotation": 0,
 						"range": 5,
 						"intensity": 1,
 						"color": "ffffad58",
@@ -18718,6 +18797,17 @@
 						"shadows": true,
 						"node_id": "5cb"
 					}
+				],
+				"roofs": {
+					"shade": true,
+					"shade_contrast": 0.5,
+					"sun_direction": 45,
+					"roofs": [
+
+					]
+				},
+				"texts": [
+
 				]
 			},
 			"1": {
@@ -24106,7 +24196,33 @@
 						"ffffffff",
 						"ffffffff",
 						"ffffffff"
-					]
+					],
+					"lookup": {
+						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
+						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
+						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
+						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
+						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
+						"5": "res://textures/tilesets/simple/tileset_carpet.png",
+						"6": "res://textures/tilesets/simple/tileset_cave.png",
+						"7": "res://textures/tilesets/simple/tileset_cobble.png",
+						"8": "res://textures/tilesets/simple/tileset_concrete.png",
+						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
+						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
+						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
+						"12": "res://textures/tilesets/simple/tileset_diamond.png",
+						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
+						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
+						"15": "res://textures/tilesets/simple/tileset_ornate.png",
+						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
+						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
+						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
+						"19": "res://textures/tilesets/simple/tileset_sewers.png",
+						"20": "res://textures/tilesets/simple/tileset_straw.png",
+						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
+						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
+						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png"
+					}
 				},
 				"patterns": [
 
@@ -24138,6 +24254,8 @@
 				},
 				"terrain": {
 					"enabled": false,
+					"expand_slots": false,
+					"smooth_blending": false,
 					"texture_1": "res://textures/terrain/terrain_dirt.png",
 					"texture_2": "res://textures/terrain/terrain_gravel.png",
 					"texture_3": "res://textures/terrain/terrain_sand.png",
@@ -24396,6 +24514,17 @@
 					}
 				],
 				"lights": [
+
+				],
+				"roofs": {
+					"shade": true,
+					"shade_contrast": 0.5,
+					"sun_direction": 45,
+					"roofs": [
+
+					]
+				},
+				"texts": [
 
 				]
 			}
