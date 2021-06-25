@@ -30,22 +30,38 @@ Some Maps may use additional asset packs, which you will need to source yourself
 Some Assets may be activated in the DungeonDraft File but not really used. Sorry for that. If a map does not denote additional assets, it was created using the default DungeonDraft Assets only.
 
 [1] [Crave's Lights](https://cartographyassets.com/assets/5371/craves-huge-light-pack/)
+
 [2] [Geordi’s Full Cliff Package](https://cartographyassets.com/assets/5345/geordis-full-cliff-package/)
+
 [3] [Krager’s Shadow & Light Pack](https://cartographyassets.com/assets/7713/kragers-shadow-light-pack/)
+
 [4] [AoA Shadow Pattern](https://cartographyassets.com/assets/5499/shadow-pattern/)
+
 [5] [Shadows and Overlays](https://cartographyassets.com/assets/5363/shadows-and-overlays/)
+
 [6] [Essendi's Caves & Spiders](https://cartographyassets.com/assets/6485/cavesspiders/)
+
 [7] [Essendi's Swamps & Bones](https://cartographyassets.com/assets/5621/swamps-and-bones/)
+
 [8] [Gogots Maps Shadows & Lights](https://cartographyassets.com/assets/6942/gogotsmaps-shadows-lights/)
+
 [9] [Gogots Maps Forest](https://cartographyassets.com/assets/5681/gogotsmaps-forest/)
+
 [10] [Gogots Maps Vegetation](https://cartographyassets.com/assets/5689/gogotsmaps-vegetation/)
+
 [11] [Pancake Wizard's Odds and Ends](https://cartographyassets.com/assets/5467/pancake-wizards-odds-and-ends/)
+
 [12] [Wider Walls](https://cartographyassets.com/assets/5651/wider-walls/)
+
 [13] [Synecdoche Eclectic Pack](https://old1.nexoness.com/assets/synecdoche-eclectic-pack.460/)
+
 [14] [Lost Lands Castle Assets](https://cartographyassets.com/assets/5675/lost-lands-castle-assets/)
+
 [15] [Gogots Maps Water](https://cartographyassets.com/assets/6901/gogotsmaps-water-assets/)
+
 [16] [Essendi's Reefs & Jaws](https://cartographyassets.com/assets/6829/reefsjaws-2/)
 
 # Paid Assets used (I'm not sure if i will keep using these)
 [A] [Forgotten Adventures](www.patreon.com/forgottenadventures)
+
 [B] [Tom Cartos](www.patreon.com/tomcartos)
