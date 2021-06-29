@@ -20,7 +20,7 @@ Some Maps may use additional asset packs, which you will need to source yourself
 * 4B-F The Gates of Gloom <sup>[1,5]</sup>
 
 # Current WIP Maps
-* 3A Zelkor's Lair <sup>[A,B]-[1,3,6,15,16]</sup>
+* 3A Zelkor's Lair <sup>[A]-[1,3,6,15,16]</sup>
 
 # Order of WIP Maps (may change depending on my running campaign)
 * 1 The Lair of the Dung Monster
@@ -48,4 +48,3 @@ Some Assets may be activated in the DungeonDraft File but not really used. Sorry
 
 # Paid Assets used (I'm not sure if i will keep using these)
 * [A] [Forgotten Adventures](www.patreon.com/forgottenadventures)
-* [B] [Tom Cartos](www.patreon.com/tomcartos)
